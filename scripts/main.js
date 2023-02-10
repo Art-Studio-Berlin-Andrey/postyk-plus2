@@ -179,6 +179,24 @@ function createText() {
 
 }
 
+function createText1() {
+
+  
+
+  let textsize = document.getElementById("font size").value;
+
+    inText.style.fontSize = textsize + "px";
+
+
+   /* let poziciyaText = document.getElementById("poziciyaText").value;
+    inText.style.paddingLeft = poziciyaText + 'px';*/
+
+    let colorText = document.getElementById("colorText").value;
+    
+    inText.style.color = colorText;
+  
+}
+
 let saveFile = document.getElementById('save');
 saveFile.onclick = download;
 
